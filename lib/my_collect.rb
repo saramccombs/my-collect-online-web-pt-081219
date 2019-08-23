@@ -10,7 +10,7 @@ def my_collect(collection)
   new_collection = []
   while i < collection.length 
     yield(collection[i])
-    new_collection << collection[i].capitalize
+    new_collection << collection[i].upcase
     i += 1 
   end
   new_collection
