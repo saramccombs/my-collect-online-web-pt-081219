@@ -13,4 +13,5 @@ def my_collect(collection)
     new_collection << collection[i].upcase
     i += 1 
   end
+  new_collection
 end
